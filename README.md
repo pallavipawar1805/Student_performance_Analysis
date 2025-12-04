@@ -1,53 +1,95 @@
-🎓 Student Performance Analyzer
+📊 Student Performance Analyzer — Python Project
+📌 Project Overview
 
-A Python desktop application that analyzes and visualizes student performance data from Excel. This project is designed to help teachers, students, and analysts understand student performance trends, identify top performers, and make data-driven decisions.
+This project analyzes student performance using an Excel dataset.
 
-Project Overview
+It reads the data, processes key metrics (scores, study hours), and visualizes insights using charts.
 
-The Student Performance Analyzer allows users to:
+The project helps identify patterns such as:
 
-Load student data from Excel files.
+How study hours affect marks
 
-Display student records in a user-friendly table.
+Overall performance distribution
 
-Compute class statistics: mean, median, mode, maximum, minimum.
+Which students may need academic support
 
-Generate PDF reports summarizing student performance.
+🎯 Purpose of the Project
 
-Visualize data through scatter plots, bar charts, pie charts, histograms, boxplots, correlation heatmaps, and stacked bar charts.
+To provide a simple and effective tool for analyzing student performance.
 
-This project provides a simple way to interpret student data visually and statistically, making it useful for academic analysis, performance tracking, and reporting.
+To help teachers, students, and parents make informed decisions.
 
-Technologies and Libraries Used
+To automate manual calculations and quickly generate insights.
 
-Python 3 – Programming language.
+💡 Why This Project Is Helpful
 
-Pandas – Data manipulation and analysis.
+Quickly identifies high performers and underperforming students.
 
-Matplotlib & Seaborn – Data visualization.
+Shows clear trends through visual charts (bar graph, line chart, scatter plot).
 
-Tkinter – Graphical user interface (GUI).
+Saves time by automatically processing Excel data.
 
-ReportLab – Generate PDF reports.
+Helps understand the relationship between study habits and academic results.
 
-OpenPyXL – Read/write Excel files.
+Useful for school analytics, educational research, and personal student tracking.
 
-How the Project Works
+🛠️ Technologies & Libraries Used
 
-Load an Excel file containing student data (Name, Roll, Marks, Study Hours).
+Python – Main programming language
 
-The application displays the data in a table and allows sorting by roll or marks.
+Pandas – For reading Excel and cleaning data
 
-Users can analyze statistics, visualize data through charts, and generate PDF reports.
+Matplotlib / Seaborn – For generating visual charts
 
-Charts and reports help identify top performers, performance trends, and areas needing improvement.
+OpenPyXL – For working with Excel files
 
-Why This Project is Useful
+Jupyter/VS Code/Any IDE – For running the script\
+📁 Project Files
 
-Helps teachers quickly assess class performance.
+student_performance_analyzer.py — Main analysis script
 
-Allows students to understand their progress relative to the class.
+student_performance_analyzer.xlsx — Sample dataset
 
-Provides easy-to-understand visualizations for performance tracking.
+requirements.txt — All required dependencies
 
-Generates professional PDF reports for record keeping and presentations
+README.md — Project documentation
+
+🚀 How to Run the Project
+
+Install required libraries:
+
+pip install -r requirements.txt
+
+
+Run the Python script:
+
+python student_performance_analyzer.py
+
+
+View generated charts and analysis output.
+
+📌 Dataset Details
+
+Stored in student_performance_analyzer.xlsx
+
+Sheet Name: Students
+
+Columns include:
+
+Name
+
+Roll
+
+Marks
+
+Study_Hours
+
+📈 Output Includes
+
+Performance summary
+
+Score distribution
+
+Study hours vs marks correlation
+
+Readable visual graphs
