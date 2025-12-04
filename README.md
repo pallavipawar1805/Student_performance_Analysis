@@ -5,7 +5,7 @@ A Python-based project that analyzes student academic data to identify patterns,
 ---
 
 ## 🚀 Project Overview
-https://github.com/pallavipawar1805/Student_performance_Analysis/blob/main/Main_window.png
+![student_performance_analysis](Main_window.png)
 This project:
 - Analyzes student performance data from an Excel/CSV file  
 - Studies the relationship between study hours and marks  
